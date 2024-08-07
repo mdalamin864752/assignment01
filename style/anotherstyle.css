@@ -2,7 +2,7 @@
 .target-section{
     margin-top: 141px;
     margin-right: 52px;
-    height: 1437px;
+    height: 1735px;
     width: 1140px;
 }
 .current-target{
@@ -86,4 +86,66 @@
 .next-target-item{
     padding: 40px;
 }
+/* footer style */
 
+.footer-container{
+    margin-top: 59px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 313px;
+    width: 1140px;
+    background-image: url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border-radius: 16px;
+    padding-top: 10px;
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #f3f4f7;
+}
+.footer-description{
+    font-size: 16px;
+    color: #f3f4f7;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+.input-btn{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600px;
+    border: none;
+
+}
+.submit-btn{
+    height: 57px;
+    width: 120px;
+    background-color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0D1321;
+    padding: 17px 20px;
+    text-align: center;
+    border: none;
+}
+/* footer developer option style */
+.footer-developer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 150px;
+    height: 36px;
+    width: 1140px;
+    font-size: 20px;
+    font-weight: 700px;  
+}
