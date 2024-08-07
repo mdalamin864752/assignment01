@@ -1,52 +1,184 @@
 .navheading{
     justify-content: space-between;
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 .navh3{
     font-size: 28px;
+    font-weight: 600px;
+    width: 128px;
+    height: 33px;
+    margin-top: 50px;
+    margin-left: 150px;
 }
+/* banner style */
 .navbtn{
-    font-size: 28px;
+    width: 244px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 900px;
+    margin-top: 38px;
+    margin-right: 150px;
+    border-radius: 8px;
+    background-color: none;
+}
+
+.navbtn{
+    width: 244px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 900px;
+    margin-top: 38px;
+    margin-right: 150px;
+    border-radius: 8px;
+    background-color: none;
 }
 .banner{
-   text-align: center; 
-
-}
+    text-align: center; 
+    background-image: url(../images/Hero-bg.png);
+    height: 652px;
+    width: 1440px;
+    margin-top: 36px;
+    justify-content: center;
+ }
 .banner-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-.banner-img{
-    text-align: center;
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    margin: auto;
 }
 .banner-title{
     font-size: 35px;
+    font-weight: bolder;
+    height: 136px;
+    width: 998px;
+    margin: auto;
+
 }
 .banner-subtitle{
     font-size: 16px ;
+    width: 852px;
+    height: 52px;
+    margin: auto;
 }
 .banner-btn{
-    padding-bottom: 45px;
+    width: 244px;
+    height: 65px;
     background-color: #0D1321;
-  border: none;
-  color: white;
-  padding: 15px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  border-radius: 5px;
-  
+    border-radius: 8px;
+    font-weight: 700px;
+    font-size: 22px;
+    color: white;
+    padding: 21px 21px;
+    text-align: center;
+    margin-top: 53px;
+    }
 
+/* shared style */
+.main-section-bg{
+    background-color: #f3f4f7;
+    border-radius: 10px;
 }
-
+.text-center{
+    text-align: center;
+}
 /* body style */
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+    
+/* section style1 */
+.section{
+    justify-content: center;
+    width: 1140px;
+    height: 1393;
+    border-radius: 16px;
+    /* background-color: aqua; */
+    margin-top: 25px;
+}
+.item-section{
+    align-items: center;
+    justify-content: center;
+
+}
+.section-container{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.section-description{
+    font-size: 16px;
+}
+
+/* item style */
+.items{
+    display: flex;
+}
+.item-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 800px;
+    height: 336px;
+    margin-left: 97px;
+    margin-right: 97px;
+    padding: 0 50px 0 50px;
+}
+.item-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+}
+.item-description{
+    font-size: 16px;
+    font-weight: normal;
+    color: #0D1321;
+}
+.item-btn{
+    font-size: 20px;
+    font-weight: medium;
+    color: #0D1321;
+    padding: 12px 20px;
+    width: 150px ;
+    height: 50px;
+}
+
+/* video-section style */
+.video-section{
+    text-align: center;
+    margin-top: 96px;
+    height: 746px;
+   
+.video-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0D1321;
+}
+.item-description{
+    font-size: 16px;
+    font-weight: normal;
+    color: #0D1321;
+}
+.video-video{
+    width: 850px;
+    height: 500px;
+    border-radius: 15px;
+}
+.video-titleanddescription{
+    padding: 0 144px 25px 144px;
 }
